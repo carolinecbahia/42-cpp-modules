@@ -1,279 +1,85 @@
-# C++ - Milestone 04: Object-Oriented Programming
+# C++ Modules — 42 São Paulo
 
-> A comprehensive series of modules introducing Object-Oriented Programming fundamentals using C++98, building progressively from basic classes to advanced concepts like inheritance, polymorphism, and exception handling.
+*This project has been created as part of the 42 curriculum by carolinecbahia.*
 
-[![Standard](https://img.shields.io/badge/standard-C++98-orange.svg)]()
-[![Status](https://img.shields.io/badge/status-In%20Development-yellow.svg)]()
-[![Modules](https://img.shields.io/badge/modules-5-success.svg)]()
+![Language](https://img.shields.io/badge/language-C%2B%2B-blue)
+![Standard](https://img.shields.io/badge/standard-C%2B%2B98-orange)
+![Modules](https://img.shields.io/badge/modules-00–09-blue)
+![Progress](https://img.shields.io/badge/completed-5%2F10-brightgreen)
+![Status](https://img.shields.io/badge/status-In%20progress-yellow)
 
-## 📋 Overview
+## Overview
 
-The **C++ Milestone 04** is a series of progressive exercises designed to introduce you to **Object-Oriented Programming (OOP)** using the C++98 standard. You will discover new concepts step-by-step, with exercises that increase in complexity.
+My C++ learning journey at **42 São Paulo**, covering modules **CPP00 through CPP09**. The modules progress from classes and object lifetime to inheritance, polymorphism, exceptions, casts, templates, and the Standard Template Library (STL).
 
-This milestone consists of **5 modules** (CPP00 through CPP04), each focusing on specific aspects of C++ and OOP design patterns.
+All projects target **C++98**. CPP00–CPP04 have been passed and are scheduled for review; CPP05–CPP09 are the next implementation stages.
 
-### Learning Path
+## Modules & Progress
 
-```
-CPP00 → CPP01 → CPP02 → CPP03 → CPP04
- (Intro)  (Memory)  (Inheritance)  (Polymorphism)  (Advanced Concepts)
-```
+| Module | Main topics | Status | Grade | Documentation |
+|--------|-------------|--------|-------|---------------|
+| **CPP00** | Namespaces, classes, streams, static members, const | Passed · review pending | 80/100 | [README](CPP00/README.md) |
+| **CPP01** | Allocation, references, member pointers, file streams | Passed · review pending | 90/100 | [README](CPP01/README.md) |
+| **CPP02** | Ad-hoc polymorphism, operator overloading, Orthodox Canonical Form | Passed · review pending | 80/100 | [README](CPP02/README.md) |
+| **CPP03** | Inheritance, construction and destruction order | Passed · review pending | 80/100 | [README](CPP03/README.md) |
+| **CPP04** | Subtype polymorphism, abstract classes, interfaces | Passed · review pending | 80/100 | [README](CPP04/README.md) |
+| **CPP05** | Exceptions, invariants, object factories | Not started | — | [README](CPP05/README.md) |
+| **CPP06** | Scalar conversion, serialization, runtime type identification | Not started | — | [README](CPP06/README.md) |
+| **CPP07** | Function templates, iteration, class templates | Not started | — | [README](CPP07/README.md) |
+| **CPP08** | Containers, iterators, STL algorithms, adapters | Not started | — | [README](CPP08/README.md) |
+| **CPP09** | Parsing, data structures, sorting, performance | Not started | — | [README](CPP09/README.md) |
 
----
-
-## 🎯 Modules Overview
-
-### **Module 00: Introduction to OOP**
-**Focus**: Namespaces, classes, member functions, I/O streams, initialization lists, static, const
-
-- **Ex00**: Megaphone - Simple string manipulation to warm up
-- **Ex01**: My Awesome PhoneBook - Design your first class-based application
-- **Ex02**: The Job Of Your Dreams - Implement Account class from specification
-
-**Key Concepts**: Classes, access modifiers (public/private), constructors, member functions, I/O
-
----
-
-### **Module 01: Memory Management & Pointers**
-**Focus**: Dynamic memory allocation, pointers to members, references, switch statements
-
-- **Ex00**: BraiiiiiiinnnzzzZ - Understand stack vs. heap allocation
-- **Ex01**: Moar brainz! - Array allocation with single new statement
-- **Ex02**: HI THIS IS BRAIN - Demystify pointers and references
-- **Ex03**: Unnecessary violence - References vs. pointers for class members
-- **Ex04**: Sed is for losers - File I/O with string manipulation
-- **Ex05**: Harl 2.0 - Pointers to member functions
-- **Ex06**: Harl filter - Switch statements for filtering (optional)
-
-**Key Concepts**: Memory allocation/deallocation, references, pointers, member function pointers, file operations
-
----
-
-### **Module 02: Ad-hoc Polymorphism, Operator Overloading, and Orthodox Canonical Form**
-**Focus**: Fixed-point arithmetic, operator overloading, Orthodox Canonical Form
-
-- **Ex00**: My First Class in Orthodox Canonical Form
-- **Ex01**: Towards a more useful fixed-point number
-- **Ex02**: Now we are talking
-- **Ex03**: BSP (Binary Space Partition) - More operator overloading
-- **Ex04**: The BurningMan - Operator overloading for bitwise operations
-
-**Key Concepts**: Orthodox Canonical Form (constructor, copy constructor, assignment operator, destructor), operator overloading, const correctness
-
----
-
-### **Module 03: Inheritance**
-**Focus**: Inheritance hierarchy, protected members, calling parent constructors
-
-- **Ex00**: Humains
-- **Ex01**: Serena Williams
-- **Ex02**: Repetitive work
-- **Ex03**: Now it gets interesting
-- **Ex04**: Ultimate open-source fighting game
-
-**Key Concepts**: Single inheritance, protected access, constructor chaining, method overriding, virtual methods
-
----
-
-### **Module 04: Subtype Polymorphism**
-**Focus**: Virtual functions, abstract classes, interfaces
-
-- **Ex00**: Polymorphism
-- **Ex01**: I don't want to set the world on fire
-- **Ex02**: Abstract class
-- **Ex03**: Interface & recap
-
-**Key Concepts**: Virtual functions, pure virtual functions, abstract classes, dynamic dispatch, RTTI
-
----
-
-## 📂 Project Structure
-
-```
-CPP/
-├── README.md                    # This file
-├── CPP00/                       # Module 00 - Introduction
-│   ├── ex00/                    # Exercise 00
-│   ├── ex01/                    # Exercise 01
-│   └── ex02/                    # Exercise 02
-├── CPP01/                       # Module 01 - Memory Management
-│   ├── ex00/
-│   ├── ex01/
-│   ├── ex02/
-│   ├── ex03/
-│   ├── ex04/
-│   ├── ex05/
-│   └── ex06/
-├── CPP02/                       # Module 02 - Operator Overloading
-│   ├── ex00/
-│   ├── ex01/
-│   ├── ex02/
-│   ├── ex03/
-│   └── ex04/
-├── CPP03/                       # Module 03 - Inheritance
-│   ├── ex00/
-│   ├── ex01/
-│   ├── ex02/
-│   ├── ex03/
-│   └── ex04/
-└── CPP04/                       # Module 04 - Polymorphism
-    ├── ex00/
-    ├── ex01/
-    ├── ex02/
-    └── ex03/
-```
-
----
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- **Compiler**: `c++` (GCC/Clang)
-- **Standard**: C++98
-- **Flags**: `-Wall -Wextra -Werror -std=c++98`
-- **OS**: Linux / macOS
+- A C++ compiler available as `c++` (GCC or Clang)
+- `make`
+- Linux, macOS, or a compatible development environment such as WSL2
 
-### Building a Module
+### Build & Run
 
-Each module has its own exercises with individual Makefiles:
+Run Make from the individual exercise directory:
 
 ```bash
-# Navigate to the module
 cd CPP00/ex00
-
-# Compile using Makefile
 make
+# Run the executable produced by this Makefile
 
-# Run the program
-./megaphone "Hello World"
-
-# Clean up object files
+# Remove object files
 make clean
 
-# Remove all compiled files
+# Remove object files and executable
 make fclean
 
 # Rebuild
 make re
 ```
 
-### General Compilation Rules
+Compile with `-Wall -Wextra -Werror`; code must also compile with `-std=c++98`. Executable names and arguments vary by implementation.
 
-All exercises must compile with:
-```bash
-c++ -Wall -Wextra -Werror -std=c++98 *.cpp -o executable_name
-```
+## Development Practices
 
----
+- Target C++98 and enable compiler warnings.
+- Write readable code with clear ownership and object lifetimes.
+- Check copying behavior, const correctness, and memory safety.
+- Keep headers self-contained and protect them against multiple inclusion.
+- Test normal behavior, boundary conditions, and error handling.
 
-## 📚 Key Concepts Across Modules
+## Review & Learning Plan
 
-### Module 00
-✓ Classes and access modifiers  
-✓ Member functions and constructors  
-✓ Initialization lists  
-✓ Input/Output streams  
-✓ Static members and const correctness  
+1. Review CPP00–CPP04, focusing on object lifetime, copying, const correctness, inheritance, and virtual dispatch.
+2. Connect those foundations to CPP05: preserve object invariants with exceptions and reuse polymorphism for specialized forms.
+3. Study explicit conversions in CPP06, then compile-time generic programming in CPP07.
+4. Apply templates through STL containers, iterators, and algorithms in CPP08.
+5. Combine parsing, container selection, correctness, and complexity analysis in CPP09.
 
-### Module 01
-✓ Stack vs. heap allocation  
-✓ Pointers and references  
-✓ Memory management with new/delete  
-✓ Pointers to member functions  
-✓ File I/O operations  
+## Author
 
-### Module 02
-✓ Operator overloading (arithmetic, comparison, assignment)  
-✓ Orthodox Canonical Form (OCF)  
-✓ Copy constructor and assignment operator  
-✓ Const correctness  
+[Caroline Bahia](https://github.com/carolinecbahia) · 42 São Paulo
 
-### Module 03
-✓ Inheritance and derived classes  
-✓ Protected members  
-✓ Constructor and destructor chains  
-✓ Method overriding  
-
-### Module 04
-✓ Virtual functions and polymorphism  
-✓ Pure virtual functions (abstract classes)  
-✓ Dynamic binding  
-✓ Interface design  
+This repository documents my C++ learning journey and implementation progress.
 
 ---
 
-## 🔑 Important Rules
-
-### Allowed
-- ✅ Standard library (except STL in CPP00 & CPP01)
-- ✅ C++ member functions and classes
-- ✅ References and const correctness
-- ✅ Virtual functions (from CPP03)
-
-### Forbidden
-- ❌ `printf()`, `malloc()`, `free()` (use `cout` and `new`/`delete`)
-- ❌ `using namespace <ns_name>` and `friend` keyword
-- ❌ STL containers/algorithms in CPP00 & CPP01 (allowed from CPP08)
-- ❌ External libraries (Boost is forbidden)
-- ❌ Function implementations in headers (except templates)
-
-### Design Requirements
-- Memory must be properly managed (no leaks)
-- Classes must follow Orthodox Canonical Form (from CPP02 onwards)
-- Header files must have include guards
-- Each header must be independently usable
-
----
-
-## 📖 Resources
-
-### Official References
-- [cplusplus.com - C++ Reference](http://www.cplusplus.com/)
-- [cplusplus.com - String Reference](http://www.cplusplus.com/reference/string/string/)
-- [cplusplus.com - Iomanip Reference](http://www.cplusplus.com/reference/iomanip/)
-
-### Reference Materials
-- Bjarne Stroustrup's "The C++ Programming Language"
-- "Effective C++" by Scott Meyers
-
----
-
----
-
-## 📊 Status & Progress
-
-| Module | Status | Concepts |
-|--------|--------|----------|
-| CPP00 | ✅ | Classes, OOP Basics |
-| CPP01 | ✅ | Memory, Pointers, References |
-| CPP02 | 🔄 | Operator Overloading, OCF |
-| CPP03 | 🔄 | Inheritance |
-| CPP04 | 🔄 | Polymorphism, Virtual Functions |
-
----
-
-## 🔗 Individual Module READMEs
-
-Each module has its own detailed documentation. For specific module details, refer to:
-- [CPP00 README](CPP00/README.md)
-- [CPP01 README](CPP01/README.md)
-- [CPP02 README](CPP02/README.md)
-- [CPP03 README](CPP03/README.md)
-- [CPP04 README](CPP04/README.md)
-
----
-
----
-
-## 📄 License
-
-These projects are part of the 42 School curriculum.
-
----
-
-**Repository**: C++ Modules - 42 School Milestone 04  
-**Language**: C++98  
-**Last Updated**: April 2026
-
-**Start with CPP00 and progress sequentially. Each module builds on the previous one!** 🚀
+**Last updated:** November 1, 2026
